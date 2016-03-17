@@ -16,4 +16,6 @@ function findGuestMatches($rawHTML) {
 	return $matches;
 };
 
-print findGuestMatches(getGuestPage());
+echo "start";
+echo findGuestMatches(getGuestPage());
+echo "end";
