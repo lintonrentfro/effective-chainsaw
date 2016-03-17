@@ -8,5 +8,5 @@ function findGuestMatches($rawHTML) {
 };
 
 echo "start";
-echo findGuestMatches($rawHTML);
+print findGuestMatches($rawHTML);
 echo "end";
