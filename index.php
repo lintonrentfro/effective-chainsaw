@@ -7,8 +7,7 @@ function getGuestPage() {
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
     $curlRes = curl_exec($ch);
     curl_close($ch);
-    $data = json_decode($curlRes, true);
-    return $data;
+    return $curlRes;
 };
 
 function findGuestMatches($rawHTML) {
