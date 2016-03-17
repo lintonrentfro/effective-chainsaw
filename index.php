@@ -7,6 +7,6 @@ function findGuestMatches($rawHTML) {
 	return $matches;
 };
 
-echo "start";
+echo "<pre>";
 print_r(findGuestMatches($rawHTML));
-echo "end";
+echo "</pre>";
